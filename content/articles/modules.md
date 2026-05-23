@@ -1,7 +1,7 @@
 ---
 title: "Modules"
 slug: "modules"
-category: "Abstract Algebra"
+category: "Pure Mathematics"
 level: "Core"
 tags:
   - "modules"

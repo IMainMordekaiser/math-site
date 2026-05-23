@@ -37,9 +37,7 @@ export default function HomePage() {
 
               <h2 className="text-2xl font-semibold">{article.title}</h2>
               <p className="mt-3 text-slate-600">{article.summary}</p>
-              <p className="mt-2 text-sm text-red-500">
-                slug = {String(article.slug)}
-              </p>
+              
 
               <div className="mt-4 text-sm text-slate-500">
                 {article.author} · {article.date}

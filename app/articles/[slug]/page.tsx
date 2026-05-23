@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+import remarkGfm from "remark-gfm";
 
 import { getAllArticles, getArticleBySlug } from "@/lib/articles";
 
@@ -62,9 +63,36 @@ export default async function ArticlePage({
 
           <div className="max-w-none">
             <ReactMarkdown
-              remarkPlugins={[remarkMath]}
-              rehypePlugins={[[rehypeKatex, { throwOnError: false }]]}
+              remarkPlugins={[remarkMath, remarkGfm]}
+              rehypePlugins={[[
+                    rehypeKatex,
+                    {
+                      throwOnError: false,
+                      macros: {
+                        "\\idl": "\\mathfrak{#1}",
+                        "\\A": "\\mathbb{A}",
+                        "\\R": "\\mathbb{R}",
+                        "\\Z": "\\mathbb{Z}",
+                        "\\Q": "\\mathbb{Q}",
+                        "\\C": "\\mathbb{C}",
+                        "\\N": "\\mathbb{N}",
+                        "\\P": "\\mathbb{P}",
+                        "\\O": "\\mathcal{O}",
+
+                        "\\set": "\\{\\, #1 \\mid #2 \\,\\}",
+                        "\\la": "\\langle", "\\ra": "\\rangle",
+
+                        "\\abs": "\\left| #1 \\right|",
+                      },
+                    },
+                  ],
+                ]}
               components={{
+                code: ({ children }) => (
+  <code className="px-1 py-[1px] rounded bg-slate-100 text-[0.8em] text-slate-800">
+    {children}
+  </code>
+),
                 h1: ({ children }) => (
                   <h1 className="mb-6 text-4xl font-bold tracking-tight text-slate-950">
                     {children}
@@ -101,11 +129,34 @@ export default async function ArticlePage({
                     {children}
                   </strong>
                 ),
-                blockquote: ({ children }) => (
-                  <blockquote className="my-6 border-l-4 border-slate-300 pl-4 italic text-slate-600">
-                    {children}
-                  </blockquote>
-                ),
+                blockquote: ({ children }) => {
+                  const text = String(children);
+
+                  let color = "border-slate-300";
+                  let bg = "bg-slate-50";
+
+                  if (text.includes("Definition")) {
+                    color = "border-blue-500";
+                    bg = "bg-blue-50";
+                  } else if (text.includes("Theorem")) {
+                    color = "border-purple-500";
+                    bg = "bg-purple-50";
+                  } else if (text.includes("Lemma")) {
+                    color = "border-green-500";
+                    bg = "bg-green-50";
+                  } else if (text.includes("Proof")) {
+                    color = "border-gray-400";
+                    bg = "bg-gray-50";
+                  }
+
+  return (
+    <blockquote
+      className={`my-6 border-l-4 ${color} ${bg} px-4 py-3 text-[16px] leading-7`}
+    >
+      {children}
+    </blockquote>
+  );
+},
               }}
             >
               {article.body}

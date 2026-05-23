@@ -129,3 +129,19 @@
     @apply font-sans;
   }
 }
+/* Inline math */
+.katex {
+  font-size: 0.9em;
+  vertical-align: middle;
+  color: #1e293b; /* slate-800 */
+}
+
+/* Fine-tune inline math baseline */
+/* Display math */
+.katex-display {
+  margin: 1.5rem 0;
+  font-size: 1.05em;
+}
+.katex-display .katex {
+  transform: scale(0.95);
+}
