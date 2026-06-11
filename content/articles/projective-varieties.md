@@ -3,8 +3,8 @@ title: "Projective Varieties"
 category: "Pure Mathematics"
 level: "Hard"
 tags:
-summary: "Written in rather a hurry, so please excuse me."
-author: "Dilemma Lucis"
+summary: "An introduction to projective varieties"
+author: "Nguyen Duy Anh"
 date: "2026-04-11"
 favorite: false
 ---

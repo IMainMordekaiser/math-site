@@ -1,10 +1,10 @@
 ---
 title: "Sheaves"
 category: "Pure Mathematics"
-level: "Hard?"
+level: "Hard"
 tags:
-summary: "sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf sheaf "
-author: "Dilemma Lucis"
+summary: "An introduction to sheaves and presheaves"
+author: "Nguyen Duy Anh"
 date: "2026-05-02"
 favorite: false
 ---

@@ -1,10 +1,10 @@
 ---
-title: "Morphisms(?)"
+title: "Morphisms"
 category: "Pure Mathematics"
 level: "Hard"
 tags:
-summary: "I do not know what I am about to learn"
-author: "Dilemma Lucis"
+summary: "Regular functions and morphisms of varieties"
+author: "Nguyen Duy Anh"
 date: "2026-04-17"
 favorite: false
 ---

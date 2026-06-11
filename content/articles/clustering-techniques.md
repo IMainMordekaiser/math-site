@@ -1,10 +1,10 @@
 ---
-title: "K-Means and Hierachical Clustering"
+title: "K-Means and Hierarchical Clustering"
 category: "Applied Mathematics"
 level: "Medium"
 tags:
-summary: "My notes on, well, clustering"
-author: "Dilemma Lucis"
+summary: "An overview of k-means and hierarchical clustering"
+author: "Nguyen Duy Anh"
 date: "2026-04-04"
 favorite: false
 ---

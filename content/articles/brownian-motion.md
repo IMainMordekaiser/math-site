@@ -4,8 +4,8 @@ category: "Applied Mathematics"
 level: "Medium"
 tags:
   - "Stochastic Calculus"
-summary: "I haven't studied measure theory yet"
-author: "Dilemma Lucis"
+summary: "From random walks to Brownian motion"
+author: "Nguyen Duy Anh"
 date: "2026-03-30"
 favorite: false
 ---

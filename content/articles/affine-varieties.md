@@ -3,8 +3,8 @@ title: "Affine Varieties"
 category: "Pure Mathematics"
 level: "Medium"
 tags:
-summary: "6 weeks!?"
-author: "Dilemma Lucis"
+summary: "An introduction to affine varieties"
+author: "Nguyen Duy Anh"
 date: "2026-04-02"
 favorite: false
 ---

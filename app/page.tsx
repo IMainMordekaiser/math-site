@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="mx-auto max-w-5xl px-6 py-12">
         <div className="mb-12">
           <p className="text-sm uppercase tracking-[0.25em] text-slate-500">
-            Dilemma Lucis
+            Nguyen Duy Anh
           </p>
           <h1 className="mt-4 text-4xl font-bold tracking-tight">
             A personal archive of mathematical articles

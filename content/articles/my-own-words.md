@@ -4,8 +4,8 @@ category: "Miscellaneous"
 level: "Core"
 tags:
   - "incoherent ramblings"
-summary: "Me writing about myself, or at least myself as of March 22nd, 2026"
-author: "Dilemma Lucis"
+summary: "A short personal introduction"
+author: "Nguyen Duy Anh"
 date: "2026-03-22"
 favorite: false
 ---

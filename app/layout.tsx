@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dilemma Lucis",
-  description: "Archive of the ignorant fool",
+  title: "Nguyen Duy Anh — Mathematical Articles",
+  description: "A personal archive of mathematical articles",
 };
 
 export default function RootLayout({

@@ -5,8 +5,8 @@ level: "High"
 tags:
   - "Category Theory"
   - "Homological Algebra"
-summary: "And my effort at reading something back to front"
-author: "Dilemma Lucis"
+summary: "Restriction and corestriction maps in group cohomology"
+author: "Nguyen Duy Anh"
 date: "2026-03-23"
 favorite: false
 ---

@@ -3,8 +3,8 @@ title: "My intuition behind Logistic Regression"
 category: "Applied Mathematics"
 level: "Medium"
 tags:
-summary: 
-author: "Dilemma Lucis"
+summary: "Building intuition for logistic regression"
+author: "Nguyen Duy Anh"
 date: "2026-03-31"
 favorite: false
 ---

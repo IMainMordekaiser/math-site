@@ -8,7 +8,7 @@ tags:
   - "rings"
   - "atiyah-macdonald"
 summary: "Definition and basic properties of modules"
-author: "Dilemma Lucis"
+author: "Nguyen Duy Anh"
 date: "2026-03-22"
 favorite: true
 ---
