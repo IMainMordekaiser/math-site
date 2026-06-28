@@ -41,7 +41,7 @@ Nothing new was presented that day, frankly. Optiver regurgitated things that we
 
 “?”
 
-“What if there genuinely is only that, and you’ve known all that you need to know to start acting?”
+“What if there genuinely is only that, and you’ve known all that you need to know to do something?”
 
 I flinched. 
 
